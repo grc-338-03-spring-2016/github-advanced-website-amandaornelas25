@@ -6,7 +6,7 @@
 
  /*First image on index page*/
 .Me{
-    margin-top: 50px;
+    margin-top: 10px;
     width: 70%;
     height: 15%;
     margin-left: 15%    
@@ -23,7 +23,7 @@ body {
     color: #3D3D3D;
     text-align: center;
     font-size: 4em;
-    margin: 30px -50px 50px 0px;
+    margin: 30px -50px 0px 0px;
      }
 
 nav ul 
@@ -43,14 +43,18 @@ nav ul li
     text-align: center;
     font-size: 1em;
     line-height: 1.5;
-    list-style-type: none;  
-    padding: 1em;
+    list-style-type: none; 
+    margin-top: 90%;
+   
+    
+}
+nav ul li a{
+    padding: 1%
 }
 
 a{
-    display: inline;
+    display: block;
     text-decoration: none;
-    margin: 1.1em;
     align-content: center;
 
 }
@@ -75,7 +79,7 @@ a:active {
 .intro {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    color: #3D3D3D;
+    color: darkcyan;
     
     margin-bottom: 2em;
     margin-top: 2em;
@@ -135,19 +139,86 @@ h1{
    }
 
 
+
+/*View for iPhone*/
+/*@media only screen and (min-width:667px){
+    .intro{
+        
+    }
+    nav ul li{
+        display: block;
+    }
+   
+}*/
+
+
+
 /*View for tablet*/
 @media only screen and (min-width:768px){
+    .intro{
+       color: #3D3D3D;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    a{
+        display: inline; 
+        padding-left: 70px;
+        width: 100%;
+    }
+    nav ul li{
+        margin: 2.7%;
+        width: 100%;
+    }
+    .Me {
+        margin-top: 3%;
+    }
+    #header{
+        margin-bottom: 3%;
+    }
     
 }
 
 /*View for desktop*/
 @media only screen and (min-width:1024px){
     
+     a{
+        display: inline; 
+        padding-left: 70px;
+        width: 100%;    
 }
-
-/*View for iPhone*/
-@media only screen and (min-width:667px){
-    
+    .intro{
+        margin-right: 15%;
+        margin-left: 15%;
+        text-align: center;
+        
+        }
+a:hover {
+	color: white;
 }
-
+    .Me {
+        max-height: 35%;
+        max-width: 55%;
+        margin-left: 21%;
+    }
+.About{
+     margin-right: 15%;
+        margin-left: 15%;
+        text-align: center;
+        margin-top: .1em;
+        margin-bottom: 4em;
+    }
+    .Images{
+        max-height: 35%;
+        max-width: 55%;
+        margin-left: 21%;
+    }
+    .Contact{
+        margin-bottom: 4em;
+    }
+    .Myself{
+         max-height: 35%;
+        max-width: 55%;
+        margin-left: 21%;
+        
+    }
 
