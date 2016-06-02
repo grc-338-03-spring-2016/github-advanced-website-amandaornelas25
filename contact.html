@@ -19,12 +19,31 @@
     <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
     
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    
+    
+    
+    
+    
+<script>
+    $(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggle();
+    });
+});
+</script>
+    
+    
+    
+    
+    
 </head>   
     
     <body>
     
-    <div id="header">Get To Know Me</div>
+    <div id="header">Say Hello</div>
     
+        
          <!--Here are my links and my nav bar -->
             
     <nav>     
@@ -36,21 +55,31 @@
     </ul>
     </nav>
         
-          <img class="Myself" src="images/Bishop.JPG" alt="Smile">
+          <img class="bre" src="images/Bishop.JPG" alt="Smile">
         
          <div class="About"> The fun does not end here! Take a look at my resume or linkedin and if you have any questions or inquiries, feel free to send me an email. 
                 </div>
         
         <!--These are links to my resume, linkedin, and email -->
         
-        <div class="Contact">
+        <div class="button">
+        
+    <button style="color:darkcyan; 
+                font-size:.8em; 
+                margin: 5% 0 -5% 44%; 
+                box-shadow:2px 2px 3px; 
+                           
+                ;">Hide</button></div>
+        
+        <div class="links"> 
             <nav>     
             <ul>
-                <li> <a href="Amanda's_Resume.pdf" target="_blank"  class="link" >my resume </a></li>
+                 <li> <p><a href="Amanda's_Resume.pdf" target="_blank"  class="link" >my resume </a></p></li>
         
-                <li> <a href="https://www.linkedin.com/profile/view?id=AAMAABav8tYBp7QZOzAADvVlLvUkiCc-WVX0NJY&trk=hp-identity-name" target="_blank" class="link"> linkedin </a></li>
+                <li> <p><a href="https://www.linkedin.com/profile/view?id=AAMAABav8tYBp7QZOzAADvVlLvUkiCc-WVX0NJY&trk=hp-identity-name" target="_blank" class="link"> linkedin </a></p></li>
         
-                <li> <a href="mailto:ajornela@calpoly.edu" class="link">email me </a></li>
+                <li> <p><a href="mailto:ajornela@calpoly.edu" class="link">email me </a></p></li> 
+                
        
             </ul>
             </nav>
@@ -63,6 +92,7 @@
         
         
         
+
         
          
      
